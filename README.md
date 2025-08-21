@@ -1,18 +1,18 @@
 🌐 Web Page Builder
 
-
 A modern, intuitive **WYSIWYG (What You See Is What You Get)** web page builder inspired by **WordPress** and **Wix**. Create beautiful web pages with **drag-and-drop functionality** without writing any code.
 
 ---
 
 ## 📸 Screenshot
 
-![Web Page Builder Screenshot](https://via.placeholder.com/800x400?text=Web+Page+Builder+Screenshot)
+![Web Page Builder Screenshot](https://github.com/mrGupta04/certificate/blob/main/Screenshot%202025-08-22%20032553.png?raw=true)
+
 
 ---
 
 ## 🌟 Live Demo
-👉 [Try it out here](https://web-page-builder-six.vercel.app/)
+👉 [Try out Live Site here](https://web-page-builder-six.vercel.app/)
 
 ---
 
@@ -53,7 +53,9 @@ A modern, intuitive **WYSIWYG (What You See Is What You Get)** web page builder 
 - [Node.js](https://nodejs.org/) (>=14)  
 - npm or yarn  
 
-### Installation
+# Web Page Builder
+
+### 🚀 Installation
 
 ```bash
 # Clone the repository
@@ -65,57 +67,48 @@ npm install
 
 # Start the dev server
 npm start
-🛠️ Technology Stack
+```
 
-Frontend Framework: React 18.2.0
+### 🛠️ Technology Stack
 
-Drag & Drop: React DnD
+- **Frontend Framework:** React 18.2.0  
+- **Drag & Drop:** React DnD  
+- **Styling:** CSS3 (Flexbox & Grid)  
+- **Icons:** Twemoji / Emoji-based system  
+- **State Management:** React Hooks (useState, useCallback)  
+- **Storage:** Browser Local Storage API  
 
-Styling: CSS3 (Flexbox & Grid)
+---
 
-Icons: Twemoji / Emoji-based system
+### 📖 How to Use
 
-State Management: React Hooks (useState, useCallback)
+- **Create a Page**  
+- **Drag components** from the toolbar  
+- **Click to select and edit** them  
+- **Use the Properties Panel** for customization  
+- **Toggle Preview Mode** to view result  
+- **Save with the Save Button**  
 
-Storage: Browser Local Storage API
+#### Component Guide
 
-📖 How to Use
+- **Text:** Double-click to edit text  
+- **Image:** Upload via image button  
+- **Button:** Customize text, colors, hover styles  
+- **Container:** Group & organize layouts  
+- **Video:** Add via URL or file  
 
-Create a Page
+#### Keyboard Shortcuts
 
-Drag components from the toolbar
+- `Ctrl+Z / Cmd+Z` → Undo  
+- `Ctrl+Shift+Z / Cmd+Shift+Z` → Redo  
+- `P` → Toggle Preview Mode  
+- `Delete` → Remove component  
 
-Click to select and edit them
+---
 
-Use the Properties Panel for customization
+### 🏗️ Project Structure
 
-Toggle Preview Mode to view result
-
-Save with the Save Button
-
-Component Guide
-
-Text: Double-click to edit text
-
-Image: Upload via image button
-
-Button: Customize text, colors, hover styles
-
-Container: Group & organize layouts
-
-Video: Add via URL or file
-
-Keyboard Shortcuts
-
-Ctrl+Z / Cmd+Z → Undo
-
-Ctrl+Shift+Z / Cmd+Shift+Z → Redo
-
-P → Toggle Preview Mode
-
-Delete → Remove component
-
-🏗️ Project Structure
+```
 src/
 ├── components/
 │   ├── Canvas/           # Main canvas area
@@ -126,29 +119,33 @@ src/
 ├── utils/                # Utility functions
 ├── constants/            # App constants
 └── styles/               # CSS stylesheets
+```
 
-🌐 Browser Support
+---
 
-Chrome (recommended)
+### 🌐 Browser Support
 
-Firefox
+- Chrome (recommended)  
+- Firefox  
+- Safari  
+- Edge  
 
-Safari
+---
 
-Edge
+### 📱 Responsive Design
 
+Works seamlessly on:  
+✅ Desktop  
+✅ Tablets  
+✅ Mobile (some limitations)  
 
-📱 Responsive Design
+---
 
-Works seamlessly on:
-✅ Desktop
-✅ Tablets
-✅ Mobile (some limitations)
+### 🤝 Contributing
 
-🤝 Contributing
+We welcome contributions!  
 
-We welcome contributions!
-
+```bash
 # Fork & create feature branch
 git checkout -b feature/AmazingFeature
 
@@ -157,5 +154,7 @@ git commit -m "Add AmazingFeature"
 
 # Push branch
 git push origin feature/AmazingFeature
+```
+
 
 

@@ -1,70 +1,237 @@
-# Getting Started with Create React App
+Web Page Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, intuitive WYSIWYG (What You See Is What You Get) web page builder inspired by WordPress and Wix. Create beautiful web pages with drag-and-drop functionality without writing any code.
 
-## Available Scripts
+https://via.placeholder.com/800x400?text=Web+Page+Builder+Screenshot
 
-In the project directory, you can run:
+🌟 Live Demo
+Experience the builder live: https://web-page-builder-six.vercel.app/
 
-### `npm start`
+✨ Features
+🎨 Core Functionality
+Drag & Drop Interface - Intuitive component placement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Multiple Component Types - Text, Images, Buttons, Containers, Dividers, and Videos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Real-time Editing - Edit content directly on the canvas
 
-### `npm test`
+Preview Mode - Toggle between edit and preview modes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Undo/Redo - Full history management with undo/redo capabilities
 
-### `npm run build`
+🎛️ Component Features
+Text Components - Rich text editing with styling options
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Image Components - Upload and customize images
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Button Components - Fully customizable buttons with hover effects
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Container Components - Flexible containers for layout management
 
-### `npm run eject`
+Video Components - Embed and customize videos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Divider Components - Visual separators with custom styling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+💅 Styling Options
+Typography Controls - Font size, color, weight, alignment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Color Customization - Background and text colors
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Layout Properties - Padding, margins, borders, borderRadius
 
-## Learn More
+Visual Effects - Shadows, opacity, filters
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Responsive Design - Components adapt to different screen sizes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+💾 Save & Export
+Local Storage - Automatic saving of your work
 
-### Code Splitting
+Export Projects - Download your design as JSON
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Import Projects - Upload and continue previous work
 
-### Analyzing the Bundle Size
+Template System - Save components as reusable blocks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🚀 Getting Started
+Prerequisites
+Node.js (version 14 or higher)
 
-### Making a Progressive Web App
+npm or yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Installation
+Clone the repository
 
-### Advanced Configuration
+bash
+git clone https://github.com/your-username/web-page-builder.git
+cd web-page-builder
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+bash
+npm install
+Start the development server
 
-### Deployment
+bash
+npm start
+Open your browser
+Navigate to http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Building for Production
+bash
+npm run build
+This creates a build folder with optimized production files.
 
-### `npm run build` fails to minify
+🛠️ Technology Stack
+Frontend Framework: React 18.2.0
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Drag & Drop: React DnD (Drag and Drop)
+
+Styling: CSS3 with Flexbox and Grid
+
+Icons: Emoji-based icon system
+
+State Management: React useState and useCallback hooks
+
+Storage: Browser Local Storage API
+
+📖 How to Use
+Creating a New Page
+Drag Components from the toolbar to the canvas
+
+Click on Components to select and edit them
+
+Use the Properties Panel to customize styling
+
+Toggle Preview Mode to see your final page
+
+Save Your Work using the save button
+
+Component Guide
+Text: Double-click to edit text content
+
+Images: Click the upload button to add images
+
+Buttons: Customize text, colors, and hover effects
+
+Containers: Use for grouping and layout organization
+
+Videos: Add video URLs or upload video files
+
+Keyboard Shortcuts
+Ctrl+Z / Cmd+Z - Undo
+
+Ctrl+Shift+Z / Cmd+Shift+Z - Redo
+
+P - Toggle preview mode
+
+Delete - Remove selected component
+
+🏗️ Project Structure
+text
+src/
+├── components/
+│   ├── Canvas/           # Main canvas area
+│   ├── Toolbar/          # Component toolbar
+│   ├── PropertiesPanel/  # Component properties
+│   └── Header/           # Application header
+├── hooks/                # Custom React hooks
+├── utils/                # Utility functions
+├── constants/            # App constants
+└── styles/               # CSS stylesheets
+🌐 Browser Support
+Chrome (recommended)
+
+Firefox
+
+Safari
+
+Edge
+
+Mobile browsers (limited functionality)
+
+🔧 Customization
+Adding New Components
+Add component type to src/constants/index.js
+
+Create component in src/components/Canvas/
+
+Add to toolbar in src/components/Toolbar/
+
+Create properties panel in src/components/PropertiesPanel/
+
+Theming
+Modify CSS variables in src/styles/theme.css to customize colors and styling.
+
+📱 Responsive Design
+The Web Page Builder is fully responsive and works on:
+
+Desktop computers
+
+Tablets
+
+Mobile devices (with some limitations on complex operations)
+
+🤝 Contributing
+We welcome contributions! Please follow these steps:
+
+Fork the project
+
+Create a feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+🐛 Known Issues
+Mobile touch interactions can be less precise than mouse
+
+Very complex layouts may experience performance issues
+
+Some browser extensions may interfere with drag-and-drop functionality
+
+🚧 Roadmap
+Upcoming Features
+Component templates and presets
+
+Advanced layout grids
+
+Collaboration features
+
+Plugin system
+
+Export to HTML/CSS
+
+AI-assisted design suggestions
+
+In Progress
+Enhanced mobile support
+
+Keyboard navigation improvements
+
+Performance optimizations
+
+📞 Support
+If you have any questions or issues:
+
+Check the Known Issues section
+
+Search existing GitHub Issues
+
+Create a new issue with detailed information
+
+🙏 Acknowledgments
+Inspired by WordPress Gutenberg and Wix Editor
+
+Built with Create React App
+
+Drag & Drop functionality by React DnD
+
+Icons from Twemoji
+
+📊 Analytics
+https://visitor-badge.glitch.me/badge?page_id=web-page-builder
+https://img.shields.io/github/stars/your-username/web-page-builder?style=social
